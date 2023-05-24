@@ -1,0 +1,93 @@
+.main-container {
+  background-color: lightcoral;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  border: 5px solid lightslategray;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-heading {
+  color: white;
+  text-align: center;
+}
+.timer {
+  color: antiquewhite;
+  font-size: 24px;
+  align-self: flex-end;
+  margin-right: 20px;
+}
+.para {
+  color: antiquewhite;
+}
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  overflow: auto;
+}
+.text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  margin-top: -20px;
+}
+textarea {
+  align-items: center;
+  border-radius: 8px;
+  outline: none;
+  font-size: 30px;
+}
+.start-button {
+  cursor: pointer;
+  color: blueviolet;
+  padding: 10px;
+  width: 100px;
+  border-radius: 8px;
+  outline: none;
+  border: 0px;
+}
+.result-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.first-section {
+  background-image: url('https://prmceam.ac.in/wp-content/uploads/2015/03/background-learner.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+.head {
+  color: lavenderblush;
+  font-family: 'Times Roman';
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 90px;
+}
+.head2 {
+  color: lightyellow;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 40px;
+}
+.description {
+  width: 90%;
+  color: #cce8e5;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 40px;
+  font-size: 22px;
+}
+.button1 {
+  color: coral;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  border-radius: 8px;
+  margin-left: 50%;
+  margin-top: 50px;
+}
